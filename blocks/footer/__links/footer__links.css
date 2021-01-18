@@ -14,7 +14,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .footer__list-item:last-of-type {
+  .footer__links:last-of-type {
     margin-bottom: 0;
   }
 }
