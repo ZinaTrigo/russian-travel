@@ -21,11 +21,12 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 460px) {
   .place {
     display: flex;
     flex-direction: column;
     padding-top: 50px;
+    grid-gap: 32px;
   }
 }
 

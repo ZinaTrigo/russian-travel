@@ -13,21 +13,17 @@
 @media screen and (max-width: 768px) {
   .cover__title {
     padding-top: 115px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .cover__title {
-    padding: 0;
+    width: calc(60vw + .5em);
+    font-size: calc(1em + 6vw);
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover__title {
-font-size: 32px;
-line-height: 1.09;
-max-width: 288px;
-padding-top: 33px;
+  font-size: 32px;
+  line-height: 1.09;
+  max-width: 288px;
+  padding-top: 33px;
   }
 }
 
