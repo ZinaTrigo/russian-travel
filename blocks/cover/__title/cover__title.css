@@ -10,19 +10,25 @@
   z-index: 3;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .cover__title {
-    padding-top: 115px;
-    width: calc(60vw + .5em);
-    font-size: calc(1em + 6vw);
+    padding-top: 195px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
+  .cover__title {
+    padding-top: 115px;
+    max-width: calc(70vw + .5em);
+    font-size: 72px;
+    line-height: 1.06;
+  }
+}
+
+@media screen and (max-width: 425px) {
   .cover__title {
   font-size: 32px;
   line-height: 1.09;
-  max-width: 288px;
   padding-top: 33px;
   }
 }

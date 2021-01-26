@@ -2,14 +2,10 @@
   margin: 0 auto;
   margin-bottom: 27px;
   color: #fff;
-  font-style:  normal;
+  font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.63;
-}
-
-.place__paragraph:nth-of-type(2n) {
-  margin-bottom: 0;
 }
 
 .place__paragraph:last-of-type {
@@ -17,14 +13,13 @@
 }
 
 @media (max-width: 768px) {
-.place__paragraph {
+  .place__paragraph {
     font-size: 16px;
-    line-height: 1.63;
   }
 }
 
 @media (max-width: 320px) {
   .place__paragraph {
-max-width: 288px;
- }
+    max-width: 288px;
+  }
 }

@@ -9,7 +9,6 @@
   .place {
     grid-template-columns: 47.5% auto;
     column-gap: 32px;
-    padding-top: 80px;
   }
 }
 
